@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9D70500B2100DAB1005C4C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D70500A2100DAB1005C4C03 /* AppDelegate.swift */; };
-		9D70500D2100DAB1005C4C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D70500C2100DAB1005C4C03 /* ViewController.swift */; };
 		9D7050102100DAB1005C4C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D70500E2100DAB1005C4C03 /* Main.storyboard */; };
 		9D7050122100DAB2005C4C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7050112100DAB2005C4C03 /* Assets.xcassets */; };
 		9D7050152100DAB2005C4C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7050132100DAB2005C4C03 /* LaunchScreen.storyboard */; };
+		9D70501D2100DC88005C4C03 /* ChooseDestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D70501C2100DC88005C4C03 /* ChooseDestinationVC.swift */; };
+		9D70501F2100DEB5005C4C03 /* DestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D70501E2100DEB5005C4C03 /* DestinationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D7050072100DAB1005C4C03 /* NSNotificationCenterUsingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSNotificationCenterUsingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D70500A2100DAB1005C4C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D70500C2100DAB1005C4C03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D70500F2100DAB1005C4C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D7050112100DAB2005C4C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D7050142100DAB2005C4C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D7050162100DAB2005C4C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D70501C2100DC88005C4C03 /* ChooseDestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDestinationVC.swift; sourceTree = "<group>"; };
+		9D70501E2100DEB5005C4C03 /* DestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				9D70500A2100DAB1005C4C03 /* AppDelegate.swift */,
-				9D70500C2100DAB1005C4C03 /* ViewController.swift */,
 				9D70500E2100DAB1005C4C03 /* Main.storyboard */,
+				9D70501C2100DC88005C4C03 /* ChooseDestinationVC.swift */,
+				9D70501E2100DEB5005C4C03 /* DestinationVC.swift */,
 				9D7050112100DAB2005C4C03 /* Assets.xcassets */,
 				9D7050132100DAB2005C4C03 /* LaunchScreen.storyboard */,
 				9D7050162100DAB2005C4C03 /* Info.plist */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D70500D2100DAB1005C4C03 /* ViewController.swift in Sources */,
 				9D70500B2100DAB1005C4C03 /* AppDelegate.swift in Sources */,
+				9D70501D2100DC88005C4C03 /* ChooseDestinationVC.swift in Sources */,
+				9D70501F2100DEB5005C4C03 /* DestinationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
